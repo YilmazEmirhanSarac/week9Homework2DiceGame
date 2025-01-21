@@ -1,0 +1,49 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  height: 92vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: gray;
+}
+
+.playerAndComputer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.playerAndComputer div {
+  width: 8rem;
+}
+
+.playerAndComputer h2 {
+  color: aquamarine;
+}
+
+.rollButton {
+  background-color: aquamarine;
+  color: white;
+  width: 20rem;
+}
+
+.playerAndComputer img {
+  width: 100%;
+}
+
+.nameInputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.nameInput {
+  text-align: center;
+}
+
+.resultMessage {
+  color: white;
+  font-size: 3rem;
+}
